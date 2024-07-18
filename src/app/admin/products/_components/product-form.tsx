@@ -65,7 +65,7 @@ const ProductForm = ({ product }: { product?: Product | null }) => {
         )}
       </div>
       <div className="space-y-2">
-        <Label htmlFor="description">Name</Label>
+        <Label htmlFor="description">Description</Label>
         <Textarea
           id="description"
           name="description"

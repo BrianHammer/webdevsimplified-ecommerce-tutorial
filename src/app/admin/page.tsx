@@ -38,8 +38,6 @@ const getSalesData = async () => {
     _count: true,
   });
 
-  await wait(2000);
-
   return {
     amount: (data._sum.pricePaidInCents || 0) * 0.01,
     numberOfSales: data._count,
